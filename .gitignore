@@ -3,6 +3,11 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# User Ignores
+venv/dragonballfs-dev
+venv/dragonballfs-dev/*
+
+
 # C extensions
 *.so
 
@@ -103,9 +108,9 @@ celerybeat.pid
 
 # Environments
 .env
-.venv
+#.venv
 env/
-venv/
+#venv/
 ENV/
 env.bak/
 venv.bak/
